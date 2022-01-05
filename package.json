@@ -1,17 +1,17 @@
 {
-  "name": "@actionsx/prettier",
-  "version": "0.0.0",
+  "name": "@northdata/prettier",
+  "version": "2.5.1",
   "scripts": {
     "build": "ncc build index.js",
     "check": "prettier --check .",
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@actions/core": "^1.5.0",
-    "prettier": "^2.3.2",
-    "shell-quote": "^1.7.2"
+    "@actions/core": "^1.6.0",
+    "prettier": "^2.5.1",
+    "shell-quote": "^1.7.3"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.30.0"
+    "@vercel/ncc": "^0.33.1"
   }
 }
