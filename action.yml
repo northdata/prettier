@@ -1,4 +1,4 @@
-name: actionsx/prettier
+name: northdata/prettier
 description: 🔨 Native, blazingly-fast Prettier CLI on Github Actions
 branding:
   icon: align-justify
@@ -8,5 +8,5 @@ inputs:
     description: Prettier CLI arguments
     required: true
 runs:
-  using: node12
+  using: node16
   main: dist/index.js
