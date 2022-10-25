@@ -1,6 +1,6 @@
 {
   "name": "@northdata/prettier",
-  "version": "2.5.1",
+  "version": "2.5.1.1",
   "scripts": {
     "build": "ncc build index.js",
     "check": "prettier --check .",
